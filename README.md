@@ -24,7 +24,7 @@ gamer::play_tetris()
 - <kbd>Left</kbd> <kbd>Right</kbd> <kbd>Down</kbd> : Move
 - <kbd>Up</kbd> : Rotate
 - <kbd>Space</kbd> : Fall
-- <kbd>Tab</kbd> : Hold
+- <kbd>A</kbd> : Alter
 - <kbd>Q</kbd> : Quit
 
 #### Scoring System

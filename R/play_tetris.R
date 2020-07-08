@@ -32,7 +32,7 @@ play_tetris <- function(nhint = 5, speed = 1, color, bg = "white", ...){
   message(paste("\nKeyboard Event", "Left, Right, Down : Move",
                 sprintf("%26s", "Up : Rotate"),
                 sprintf("%24s", "Space : Fall"),
-                sprintf("%24s", "Tab : Hold"),
+                sprintf("%25s", "A : Alter"),
                 sprintf("%24s", "Q : Quit"),
                 sep = "\n"))
   readline("\nType  <Return>\t to start : ")

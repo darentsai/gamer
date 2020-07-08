@@ -35,7 +35,7 @@
       .stage1(env, nhint)
     }
 
-    if(lkey == "\t"){
+    if(lkey == "a"){
       if(!env$shift) hold_area(env)
       else return(NULL)
       .stage1(env, nhint)
