@@ -23,6 +23,21 @@
       .stage2(env)
     }
 
+    if(lkey == 'p'){
+      gra <- getGraphicsEventEnv()
+
+      getGraphicsEvent(
+        prompt = 'Paused: P to resume',
+        onKeybd = function(key)
+          if (tolower(key) == 'p')
+            getGraphicsEvent(
+              prompt = gra$prompt,
+              onKeybd = gra$onKeybd,
+              onIdle = gra$onIdle
+            )
+      )
+    }
+
     if(lkey %in% c("up", "down", "left", "right")){
       ## override original direction
       env$dir <- lkey
