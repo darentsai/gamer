@@ -34,6 +34,7 @@ play_tetris <- function(nhint = 5, speed = 1, color, bg = "white", ...){
                 sprintf("%24s", "Space : Fall"),
                 sprintf("%25s", "A : Alter"),
                 sprintf("%24s", "Q : Quit"),
+                sprintf("%25s", "P : Pause"),
                 sep = "\n"))
   readline("\nType  <Return>\t to start : ")
 

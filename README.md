@@ -26,6 +26,7 @@ gamer::play_tetris()
 - <kbd>Space</kbd> : Fall
 - <kbd>A</kbd> : Alter
 - <kbd>Q</kbd> : Quit
+- <kbd>P</kbd> : Pause
 
 #### Scoring System
 
